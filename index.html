@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ECE 140A | RickG & RamsinK</title>
+  </head>
+  <body>
+    < h1>Tutorial 3, HTTP Requests!</h1>
+    <h1> Form: POST </h1>
+        <h2>Full html doc</h2>
+
+
+        <form method="POST">
+            <label for="fname">What is your first name?</label>
+            <input type="text" name="fname">
+
+
+            <label for="lname">What is your last name?</label>
+            <input type="text" name="lname">
+            <input type="submit" value="Submit">
+        </form>
+
+
+        <form action="/beverage" method="POST">
+            <label for="beverage">What is your favorite beverage(Don't be boring and say water)?</label>
+            <input type="text" name="beverage">
+            <input type="submit" value="Submit">
+        </form>
+
+
+        <h2>Partial</h2>
+
+
+        <form action="/season" method="POST">
+          <label for="season">What is your favorite season(Fall, Winter, etc)?</label>
+          <input type="text" name="season">
+          <input type="submit" value="Submit">
+      </form>
+
+  </body>
+</html>
